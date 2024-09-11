@@ -1,0 +1,34 @@
+
+body{
+    background-color: #051d2d;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+    color: white;
+
+}
+#game-board {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 30px solid #0099fd;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.snake, .apple {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.snake {
+    background-color: red;
+
+}
+
+.apple {
+    background-color: greenyellow;
+}
+
